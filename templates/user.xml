@@ -29,9 +29,4 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="test" value="abc" description="fasdfad" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
 </templateSet>
