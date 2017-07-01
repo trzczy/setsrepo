@@ -1,0 +1,32 @@
+<templateSet group="user">
+  <template name="di" value="&#10;&#10;//Debug info&#10;?&gt;&lt;span class='debugNfo'&gt;&lt;h4&gt;Debug info | title &lt;?= '&lt;span style = &quot;color: green;&quot;&gt;' . __FILE__ . '&lt;/span&gt; ' . __LINE__ ?&gt;&lt;/h4&gt;&lt;pre&gt;&lt;?php&#10;        //May repeat&#10;        echo &quot;\n\n&quot;;&#10;        echo '';&#10;        echo &quot;\n\n&quot;;&#10;        //may repeat end&#10;        //May repeat 2&#10;        var_dump(null);&#10;        echo &quot;\n&quot;;&#10;        //may repeat 2 end&#10;        ?&gt;&lt;/pre&gt;&lt;h4&gt;End&lt;/h4&gt;&lt;/span&gt;&lt;?= &quot;\n\n\n\n&quot; ?&gt;&lt;?php&#10;//Debug info end&#10;&#10;" description="Debug info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dil" value="&#10;&#10;&#10;//Debug info&#10;?&gt;&lt;?= &quot;***** DEBUG **** &quot; . __LINE__ . &quot; **\n&quot;?&gt;&lt;?php&#10;//May repeat&#10;var_dump($foo);&#10;echo &quot;\n&quot;;&#10;//may repeat end&#10;echo &quot;***/DEBUG ***&quot;;&#10;echo &quot;\n\n&quot;;&#10;?&gt;&lt;?php&#10;//Debug info end&#10;&#10;&#10;&#10;&#10;" description="debug for cli" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="noi" value="&#10;            /** @noinspection PhpUndefinedMethodInspection */" description="no inspection PhpUndefinedMethodInspection" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="adam" value="&#10;file_put_contents('./adam.txt', substr(date(DATE_RFC2822), 0, -6) . &quot;\n&quot;&#10;. substr(__FILE__, strlen($_SERVER['DOCUMENT_ROOT'])+1) . &quot;: &quot; .__LINE__ . &quot;\n&quot; .&#10;/** begin */&#10;json_encode($data, JSON_PRETTY_PRINT)&#10;/** end */&#10;. &quot;\n&quot; . file_get_contents('./adam.txt')&#10;);" description="Write to file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="zaz" value="Zażółć gęślą jaźń." description="Inserts Zażółć gęślą jaźń." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="modd" value="//$date(&quot;yymmdd&quot;)$ $time()$ modification" description="modification date" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
