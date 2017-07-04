@@ -11,6 +11,7 @@
   </template>
   <template name="noi" value="&#10;            /** @noinspection PhpUndefinedMethodInspection */" description="no inspection PhpUndefinedMethodInspection" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="CSS" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
