@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="6d3e503b-72c5-4a26-8b01-278ecb428e52" name="trzczy.nazwa" url="http://trzczy.nazwa.pl/twojatv-ftp/">
-        <fileTransfer host="trzczy@trzczy.nazwa.pl" port="22" rootFolder="/twojatv-ftp" accessType="SFTP">
+        <fileTransfer host="trzczy@trzczy.nazwa.pl" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
           </advancedOptions>
