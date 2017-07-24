@@ -35,4 +35,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="diep" value="//diep $myDate$ $myTime$&#10;die('&lt;pre&gt;' . json_encode($clipboard$, 128) . '&lt;pre&gt;');&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="myDate" expression="date(&quot;yyyy MMM dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="myTime" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clipboard" expression="clipboard()" defaultValue="empty clipboard" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
