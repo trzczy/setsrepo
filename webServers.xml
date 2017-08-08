@@ -4,7 +4,7 @@
       <webServer id="91aeeb43-8f2f-4560-91c6-d59f3863fac3" name="adminOrig" url="http://twojatv.pl/admin">
         <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" forceListCommand="true" keepAliveTimeout="900000" passiveMode="true" accurateTimestamps="ALWAYS" showHiddenFiles="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
