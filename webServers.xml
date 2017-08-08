@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="91aeeb43-8f2f-4560-91c6-d59f3863fac3" name="adminOrig" url="http://twojatv.pl/admin">
+        <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="21" rootFolder="/admin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
