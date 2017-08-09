@@ -9,6 +9,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="dedb193d-ce26-4607-bb6d-093f585c4a82" name="admin2017" url="http://twojatv.pl/admin17">
+        <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="21" rootFolder="/admin2017">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" forceListCommand="true" keepAliveTimeout="900000" passiveMode="true" accurateTimestamps="ALWAYS" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
