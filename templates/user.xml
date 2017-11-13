@@ -43,7 +43,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dies" value="//dies $myDate$ $myTime$&#10;echo (__FILE__ . ' line: ' . __LINE__ . &quot;\n&quot; . json_encode($clipboard$, 128) . &quot;\n----\n&quot;);&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="dies" value="//dies $myDate$ $myTime$&#10;echo (&quot;\n********dies*******\n&quot; . __FILE__ . ' line: ' . __LINE__ . &quot;\n&quot; . json_encode($clipboard$, 128) . &quot;\n***\n&quot;);&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="myDate" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="myTime" expression="time()" defaultValue="" alwaysStopAt="true" />
     <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
