@@ -43,10 +43,22 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dies" value="//dies $myDate$ $myTime$&#10;echo (__FILE__ . ' line: ' . __LINE__ . &quot;\n&quot; . json_encode($clipboard$, 128) . &quot;\n----\n&quot;);&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="dies" value="//dies $myDate$ $myTime$&#10;echo (&quot;\n&lt;pre&gt;********dies*******\n&quot; . __FILE__ . ' line: ' . __LINE__ . &quot;\n&quot; . '$clipboard$' . &quot;\n&quot; . json_encode($clipboard$, 128) . &quot;\n***&lt;/pre&gt;\n&quot;);&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="myDate" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="myTime" expression="time()" defaultValue="" alwaysStopAt="true" />
-    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <variable name="clipboard" expression="escapeString(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tgt" value="$xsd$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="xsd" expression="escapeString(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="diex" value="//Escaped text: $variable$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="escapeString(clipboard())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
     </context>
