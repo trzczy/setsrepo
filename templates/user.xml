@@ -57,7 +57,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="diex" value="//Escaped text: $variable$$END$" toReformat="false" toShortenFQNames="true">
+  <template name="diex" value="//Escaped text: $variable$$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="variable" expression="escapeString(clipboard())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="PHP" value="true" />
