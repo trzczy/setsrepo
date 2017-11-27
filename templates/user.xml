@@ -63,4 +63,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="err" value="error_reporting(-1);&#10;ini_set('display_errors', true);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
