@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="dedb193d-ce26-4607-bb6d-093f585c4a82" name="admin2017" url="http://twojatv.pl/admin17">
+        <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="21" rootFolder="/admin2017">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" forceListCommand="true" keepAliveTimeout="900000" passiveMode="true" accurateTimestamps="ALWAYS" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
       <webServer id="92de21b3-1cda-4791-9e31-8f4d425e6980" name="fbCommentTest" url="http://37.233.99.46">
         <fileTransfer host="37.233.99.46" port="22" rootFolder="/home/fb_comments_test" accessType="SFTP">
           <advancedOptions>
