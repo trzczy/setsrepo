@@ -63,7 +63,14 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="err" value="error_reporting(-1);&#10;ini_set('display_errors', true);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="err" value="error_reporting(-1);&#10;ini_set('display_errors', true);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="diet" value="die(&quot;$d$ $t$&quot;);//todo&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="d" expression="date(&quot;yyyy-MMM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="t" expression="time()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
