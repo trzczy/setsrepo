@@ -68,4 +68,16 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="diet" value="die(&quot;$d$ $t$&quot;);//todo&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="d" expression="date(&quot;yyyy-MMM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="t" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vars" value="&#10;        ?&gt;&lt;style&gt;*{background-color: #e7e7e7}&lt;/style&gt;&lt;?php&#10;        echo (&quot;\n&lt;pre&gt;\n&quot;);&#10;        var_dump(get_defined_vars());&#10;        echo (&quot;\n&lt;/pre&gt;\n&quot;);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
