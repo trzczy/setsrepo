@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3043f1b9-41f9-4aa9-b0f7-1ebc4ba4f693" name="admin2018" url="http://ftp.rafalbabiarz.nazwa.pl">
+        <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="22" rootFolder="/admin2017" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
