@@ -9,6 +9,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="8173463e-6d25-4552-98d9-8f08bbb9896b" name="twojatvNew" url="http://ftp.rafalbabiarz.nazwa.pl">
+        <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="22" rootFolder="/new" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
