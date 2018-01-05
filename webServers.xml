@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="82f09e21-b05a-4082-9468-53eac97ade27" name="rigby" url="http://rigby.ml">
+        <fileTransfer host="rigby.ml" port="22" rootFolder="/home/rigby/service" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="3043f1b9-41f9-4aa9-b0f7-1ebc4ba4f693" name="admin2018" url="http://ftp.rafalbabiarz.nazwa.pl">
         <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="22" rootFolder="/admin2017" accessType="SFTP">
           <advancedOptions>
@@ -11,6 +19,14 @@
       </webServer>
       <webServer id="8173463e-6d25-4552-98d9-8f08bbb9896b" name="twojatvNew" url="http://ftp.rafalbabiarz.nazwa.pl">
         <fileTransfer host="ftp.rafalbabiarz.nazwa.pl" port="22" rootFolder="/new" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="06acf614-c770-48fe-a5dd-d6fecbbacebb" name="rigbyRevive" url="http://rigby.ml">
+        <fileTransfer host="rigby.ml" port="22" rootFolder="/home/rigby/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
