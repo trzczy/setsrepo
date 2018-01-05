@@ -26,7 +26,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="06acf614-c770-48fe-a5dd-d6fecbbacebb" name="rigbyRevive" url="http://rigby.ml">
-        <fileTransfer host="rigby.ml" port="22" rootFolder="/home/rigby/" accessType="SFTP">
+        <fileTransfer host="rigby.ml" port="22" rootFolder="/home/rigby" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
