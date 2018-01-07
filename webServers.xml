@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="65de8027-a461-4e49-87e9-97416e209ef2" name="rigby.ml.blog" url="http://37.233.99.43">
+        <fileTransfer host="37.233.99.43" port="22" rootFolder="/home/rigby/blog" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
