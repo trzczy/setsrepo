@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5e55b53-1601-4eee-88db-a86d63d9e636" name="lemoniada.ml.remote" url="http://rigby.ml">
+        <fileTransfer host="rigby.ml" port="22" rootFolder="/home/rigby/blog" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
