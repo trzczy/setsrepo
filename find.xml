@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../public_html/engine/modules/online/online.php [alkesz_connect]'" />
-    <option name="defaultScopeName" value="File '.../public_html/engine/modules/online/online.php [alkesz_connect]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../public_html/engine/modules/online/online.php [alkesz_connect]'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
