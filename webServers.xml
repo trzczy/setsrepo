@@ -4,7 +4,7 @@
       <webServer id="e5e55b53-1601-4eee-88db-a86d63d9e636" name="djalexn.hol.es" url="http://31.170.165.28">
         <fileTransfer host="31.170.165.28" port="21" rootFolder="/public_html">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
