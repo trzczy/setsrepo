@@ -33,8 +33,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="65de8027-a461-4e49-87e9-97416e209ef2" name="lemoniada.ml.blog" url="http://37.233.99.43">
-        <fileTransfer host="37.233.99.43" port="22" rootFolder="/home/rigby/blog" accessType="SFTP">
+      <webServer id="65de8027-a461-4e49-87e9-97416e209ef2" name="lemoniada.ml.blog" url="http://lemoniada.ml">
+        <fileTransfer host="lemoniada.ml" port="22" rootFolder="/home/rigby/blog" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
