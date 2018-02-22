@@ -81,7 +81,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="dien" value="&#10;//******dien**&#10;                $ouptut = var_export($cb$, 1);&#10;                echo '&lt;div style=&quot;margin: 20px&quot;&gt;&lt;pre&gt;';&#10;                trigger_error($ouptut, E_USER_NOTICE);&#10;                echo '&lt;/div&gt;&lt;/pre&gt;';&#10;//***********************                &#10;" toReformat="false" toShortenFQNames="true">
+  <template name="dien" value="&#10;//******dien**&#10;                $ouptut = var_export($cb$, 1);&#10;                echo '&lt;div style=&quot;margin: 20px&quot;&gt;&lt;pre&gt;';&#10;                trigger_error($ouptut, E_USER_NOTICE);&#10;                echo '&lt;/div&gt;&lt;/pre&gt;';&#10;//***********************                &#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="cb" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
