@@ -69,9 +69,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="diet" value="die(&quot;$d$ $t$&quot;);//todo&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="diet" value="die(&quot;&#10;&lt;pre&gt;&#10;$d$ $t$&#10;$file$&#10;$lnr$&#10;$ts$&#10;&lt;/pre&gt;&#10;&quot;);//todo&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="d" expression="date(&quot;yyyy-MMM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="t" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="lnr" expression="lineNumber()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ts" expression="timestamp()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
