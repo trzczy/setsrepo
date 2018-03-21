@@ -96,4 +96,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="puv" value="&#10;        fwrite(STDERR, print_r([$product-&gt;getMinimumQuantity(), 8, 8, 8, 8, 8, 8, 8, 8, 8], TRUE));&#10;        echo &quot;\n\nADAM ADAM ADAM ADAM ADAM ADAM ADAM ADAM ADAM ADAM\n\n&quot;;&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
