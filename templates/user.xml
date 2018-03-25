@@ -69,7 +69,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="diet" value="//**********************************************************************************&#10;//use Trzczy\Debug;&#10;foreach ([__LINE__,__FILE__,__METHOD__,isset($this)?spl_object_hash($this):'',] as $line) {&#10;echo &quot;&lt;pre&gt;$line&lt;/pre&gt;&quot;;}&#10;echo '&lt;br&gt;', (new Debug('$d$ $t$',$ts$))-&gt;diee();//todo&#10;//**********************************************************************************&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="diet" value="//**********************************************************************************&#10;//use Trzczy\Debug;&#10;echo &quot;&lt;pre&gt;\n&quot;;&#10;foreach ([__LINE__,__FILE__,__METHOD__,isset($this)?spl_object_hash($this):'',] as $line) {&#10;echo &quot;$line\n&quot;;}&#10;echo &quot;\n&quot;, (new Debug('$d$ $t$',$ts$))-&gt;diee();//todo&#10;//**********************************************************************************&#10;$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="d" expression="date(&quot;yyyy-MMM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="t" expression="time()" defaultValue="" alwaysStopAt="true" />
     <variable name="ts" expression="timestamp()" defaultValue="" alwaysStopAt="true" />
