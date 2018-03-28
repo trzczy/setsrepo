@@ -1,0 +1,10 @@
+<templateSet group="Twig">
+  <template name="blk" value="{% block $NAME$ %}&#10;    $END$&#10;{% endblock %}&#10;" shortcut="ENTER" description="block...endblock" toReformat="true" toShortenFQNames="false">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ext" value="{% extends &quot;$TEMPLATE$&quot; %}&#10;" shortcut="ENTER" description="extends &quot;template&quot;" toReformat="true" toShortenFQNames="false">
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
