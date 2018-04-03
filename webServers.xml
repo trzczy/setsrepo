@@ -4,6 +4,9 @@
       <webServer id="8c3cc76b-866b-4eff-934d-2d2e19115db7" name="gwo" url="http://gwo.test.lh">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="f83a8c54-433a-4f07-ba9d-3876a829a387" name="cms" url="http://cms.test.lh">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
