@@ -7,6 +7,9 @@
       <webServer id="f83a8c54-433a-4f07-ba9d-3876a829a387" name="cms" url="http://cms.test.lh">
         <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
+      <webServer id="1397e230-56da-40d8-9100-f8273858f848" name="akademia" url="http://akademia.test.lh">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
