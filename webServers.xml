@@ -1,13 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e5e55b53-1601-4eee-88db-a86d63d9e636" name="djalexn.hol.es" url="http://31.170.165.28">
-        <fileTransfer host="31.170.165.28" port="21" rootFolder="/public_html">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
+      <webServer id="8c3cc76b-866b-4eff-934d-2d2e19115db7" name="gwo" url="http://gwo.test.lh">
+        <fileTransfer port="0" accessType="LOCAL" />
       </webServer>
     </option>
   </component>
