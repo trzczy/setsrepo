@@ -93,7 +93,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="ex" value="//start&#10;exit(__FILE__.' '. __LINE__);&#10;//end" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ex" value="//start&#10;exit('&lt;br&gt;Exiting in file&lt;pre&gt; ' . __FILE__.' &lt;/pre&gt;line&lt;pre&gt; '. __LINE__ . '&lt;/pre&gt;');&#10;//end" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
