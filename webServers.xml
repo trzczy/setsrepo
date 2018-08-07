@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5a852d8-a33c-4b91-b165-7aeb813da423" name="gcp" url="http://maliny.ga">
+        <fileTransfer host="maliny.ga" port="22" privateKey="$USER_HOME$/Dropbox/._/hihi" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
